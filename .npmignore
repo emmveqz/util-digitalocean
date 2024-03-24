@@ -1,0 +1,8 @@
+/.git/
+/.github/
+/.vscode/
+/.gitignore
+/.npmrc
+/src/
+/tsconfig.json
+/tslint.json

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
+    // so, 'ES6' for standalone, and 'commonjs' for exported as dependancy
+    "module": "commonjs",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "lib": ["ES6", "ES7", "ES2017", "ES2018"],                             /* Specify library files to be included in the compilation. */
+    "declaration": true,                   /* Generates corresponding '.d.ts' file. */
+    "outDir": "./dist",                     /* Redirect output structure to the directory. */
+    "strict": true,                           /* Enable all strict type-checking options. */
+    "skipLibCheck": true,
+    "moduleResolution": "node",            /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "esModuleInterop": true                /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+  },
+  "exclude": [
+    "./dist",
+    "./node_modules"
+  ],
+  "include": [
+    "./src"
+  ]
+}
